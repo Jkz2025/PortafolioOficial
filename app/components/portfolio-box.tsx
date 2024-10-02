@@ -1,10 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
+import { StaticImageData } from "next/image"
 interface PortfolioBoxProps {
     data: {
         id: number,
         title: string,
-        image: string,
+        image: StaticImageData,
         urlGithub: string,
         urlDemo: string
     }
@@ -12,7 +13,7 @@ interface PortfolioBoxProps {
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const {data} = props
-    const {id, title, image, urlGithub, urlDemo} = data
+    const { title, image, urlGithub, urlDemo} = data
   
 
     return (

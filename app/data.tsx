@@ -245,7 +245,7 @@ export const dataTestimonials = [
         name: "María García",
         description:
             "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
+        imageUrl: profile3,
     },
     {
         id: 4,
